@@ -23,7 +23,7 @@ function handleSubmit(event) {
     const passwordInput = form.elements.password;
   
   if (emailInput.value === "" || passwordInput.value === "") {
-    return console.log("alert");
+    alert('Усі поля повинні бути заповнені');
   } else {
     const formData = {
         email: emailInput.value,
